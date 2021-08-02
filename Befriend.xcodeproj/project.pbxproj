@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E650231F26B8A5C70018B2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650231E26B8A5C70018B2A0 /* AppDelegate.swift */; };
+		E650232126B8A5C70018B2A0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650232026B8A5C70018B2A0 /* GameViewController.swift */; };
+		E650232426B8A5C70018B2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E650232226B8A5C70018B2A0 /* Main.storyboard */; };
+		E650232726B8A5C70018B2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E650232526B8A5C70018B2A0 /* LaunchScreen.storyboard */; };
+		E650232C26B8A5C70018B2A0 /* Befriend.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E650232B26B8A5C70018B2A0 /* Befriend.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E650233226B8A5C70018B2A0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E650233026B8A5C70018B2A0 /* Interface.storyboard */; };
+		E650233926B8A5C70018B2A0 /* Befriend Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E650233826B8A5C70018B2A0 /* Befriend Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E650233E26B8A5C70018B2A0 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650233D26B8A5C70018B2A0 /* InterfaceController.swift */; };
+		E650234026B8A5C70018B2A0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650233F26B8A5C70018B2A0 /* ExtensionDelegate.swift */; };
+		E650234926B8A5C70018B2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650234826B8A5C70018B2A0 /* AppDelegate.swift */; };
+		E650234B26B8A5C70018B2A0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650234A26B8A5C70018B2A0 /* GameViewController.swift */; };
+		E650234E26B8A5C70018B2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E650234C26B8A5C70018B2A0 /* Main.storyboard */; };
+		E650235126B8A5C70018B2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E650234F26B8A5C70018B2A0 /* LaunchScreen.storyboard */; };
+		E650235A26B8A5C70018B2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650235926B8A5C70018B2A0 /* AppDelegate.swift */; };
+		E650235C26B8A5C70018B2A0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650235B26B8A5C70018B2A0 /* GameViewController.swift */; };
+		E650235F26B8A5C70018B2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E650235D26B8A5C70018B2A0 /* Main.storyboard */; };
+		E650236126B8A5C70018B2A0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E650231326B8A5BD0018B2A0 /* Actions.sks */; };
+		E650236226B8A5C70018B2A0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E650231326B8A5BD0018B2A0 /* Actions.sks */; };
+		E650236326B8A5C70018B2A0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E650231326B8A5BD0018B2A0 /* Actions.sks */; };
+		E650236426B8A5C70018B2A0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E650231426B8A5BE0018B2A0 /* GameScene.sks */; };
+		E650236526B8A5C70018B2A0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E650231426B8A5BE0018B2A0 /* GameScene.sks */; };
+		E650236626B8A5C70018B2A0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E650231426B8A5BE0018B2A0 /* GameScene.sks */; };
+		E650236726B8A5C70018B2A0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E650231426B8A5BE0018B2A0 /* GameScene.sks */; };
+		E650236826B8A5C70018B2A0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650231526B8A5BE0018B2A0 /* GameScene.swift */; };
+		E650236926B8A5C70018B2A0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650231526B8A5BE0018B2A0 /* GameScene.swift */; };
+		E650236A26B8A5C70018B2A0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650231526B8A5BE0018B2A0 /* GameScene.swift */; };
+		E650236B26B8A5C70018B2A0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E650231526B8A5BE0018B2A0 /* GameScene.swift */; };
+		E650236C26B8A5C70018B2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E650231626B8A5C70018B2A0 /* Assets.xcassets */; };
+		E650236D26B8A5C70018B2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E650231626B8A5C70018B2A0 /* Assets.xcassets */; };
+		E650236E26B8A5C70018B2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E650231626B8A5C70018B2A0 /* Assets.xcassets */; };
+		E650236F26B8A5C70018B2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E650231626B8A5C70018B2A0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E650232D26B8A5C70018B2A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E650230E26B8A5BD0018B2A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E650232A26B8A5C70018B2A0;
+			remoteInfo = "Befriend watchOS App";
+		};
+		E650233A26B8A5C70018B2A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E650230E26B8A5BD0018B2A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E650233726B8A5C70018B2A0;
+			remoteInfo = "Befriend watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E650237526B8A5C70018B2A0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E650233926B8A5C70018B2A0 /* Befriend Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650237926B8A5C70018B2A0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E650232C26B8A5C70018B2A0 /* Befriend.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E650231326B8A5BD0018B2A0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E650231426B8A5BE0018B2A0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E650231526B8A5BE0018B2A0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E650231626B8A5C70018B2A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E650231B26B8A5C70018B2A0 /* Befriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Befriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E650231E26B8A5C70018B2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E650232026B8A5C70018B2A0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E650232326B8A5C70018B2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E650232626B8A5C70018B2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E650232826B8A5C70018B2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E650232B26B8A5C70018B2A0 /* Befriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Befriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E650233126B8A5C70018B2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E650233326B8A5C70018B2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E650233826B8A5C70018B2A0 /* Befriend Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Befriend Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E650233D26B8A5C70018B2A0 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E650233F26B8A5C70018B2A0 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E650234126B8A5C70018B2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E650234626B8A5C70018B2A0 /* Befriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Befriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E650234826B8A5C70018B2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E650234A26B8A5C70018B2A0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E650234D26B8A5C70018B2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E650235026B8A5C70018B2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E650235226B8A5C70018B2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E650235726B8A5C70018B2A0 /* Befriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Befriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E650235926B8A5C70018B2A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E650235B26B8A5C70018B2A0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E650235E26B8A5C70018B2A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E650236026B8A5C70018B2A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E650231826B8A5C70018B2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650233526B8A5C70018B2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650234326B8A5C70018B2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650235426B8A5C70018B2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E650230D26B8A5BD0018B2A0 = {
+			isa = PBXGroup;
+			children = (
+				E650231226B8A5BD0018B2A0 /* Befriend Shared */,
+				E650231D26B8A5C70018B2A0 /* Befriend iOS */,
+				E650232F26B8A5C70018B2A0 /* Befriend watchOS App */,
+				E650233C26B8A5C70018B2A0 /* Befriend watchOS App Extension */,
+				E650234726B8A5C70018B2A0 /* Befriend tvOS */,
+				E650235826B8A5C70018B2A0 /* Befriend macOS */,
+				E650231C26B8A5C70018B2A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E650231226B8A5BD0018B2A0 /* Befriend Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E650231326B8A5BD0018B2A0 /* Actions.sks */,
+				E650231426B8A5BE0018B2A0 /* GameScene.sks */,
+				E650231526B8A5BE0018B2A0 /* GameScene.swift */,
+				E650231626B8A5C70018B2A0 /* Assets.xcassets */,
+			);
+			path = "Befriend Shared";
+			sourceTree = "<group>";
+		};
+		E650231C26B8A5C70018B2A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E650231B26B8A5C70018B2A0 /* Befriend.app */,
+				E650232B26B8A5C70018B2A0 /* Befriend.app */,
+				E650233826B8A5C70018B2A0 /* Befriend Extension.appex */,
+				E650234626B8A5C70018B2A0 /* Befriend.app */,
+				E650235726B8A5C70018B2A0 /* Befriend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E650231D26B8A5C70018B2A0 /* Befriend iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E650231E26B8A5C70018B2A0 /* AppDelegate.swift */,
+				E650232026B8A5C70018B2A0 /* GameViewController.swift */,
+				E650232226B8A5C70018B2A0 /* Main.storyboard */,
+				E650232526B8A5C70018B2A0 /* LaunchScreen.storyboard */,
+				E650232826B8A5C70018B2A0 /* Info.plist */,
+			);
+			path = "Befriend iOS";
+			sourceTree = "<group>";
+		};
+		E650232F26B8A5C70018B2A0 /* Befriend watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				E650233026B8A5C70018B2A0 /* Interface.storyboard */,
+				E650233326B8A5C70018B2A0 /* Info.plist */,
+			);
+			path = "Befriend watchOS App";
+			sourceTree = "<group>";
+		};
+		E650233C26B8A5C70018B2A0 /* Befriend watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E650233D26B8A5C70018B2A0 /* InterfaceController.swift */,
+				E650233F26B8A5C70018B2A0 /* ExtensionDelegate.swift */,
+				E650234126B8A5C70018B2A0 /* Info.plist */,
+			);
+			path = "Befriend watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		E650234726B8A5C70018B2A0 /* Befriend tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E650234826B8A5C70018B2A0 /* AppDelegate.swift */,
+				E650234A26B8A5C70018B2A0 /* GameViewController.swift */,
+				E650234C26B8A5C70018B2A0 /* Main.storyboard */,
+				E650234F26B8A5C70018B2A0 /* LaunchScreen.storyboard */,
+				E650235226B8A5C70018B2A0 /* Info.plist */,
+			);
+			path = "Befriend tvOS";
+			sourceTree = "<group>";
+		};
+		E650235826B8A5C70018B2A0 /* Befriend macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E650235926B8A5C70018B2A0 /* AppDelegate.swift */,
+				E650235B26B8A5C70018B2A0 /* GameViewController.swift */,
+				E650235D26B8A5C70018B2A0 /* Main.storyboard */,
+				E650236026B8A5C70018B2A0 /* Info.plist */,
+			);
+			path = "Befriend macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E650231A26B8A5C70018B2A0 /* Befriend iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E650237A26B8A5C70018B2A0 /* Build configuration list for PBXNativeTarget "Befriend iOS" */;
+			buildPhases = (
+				E650231726B8A5C70018B2A0 /* Sources */,
+				E650231826B8A5C70018B2A0 /* Frameworks */,
+				E650231926B8A5C70018B2A0 /* Resources */,
+				E650237926B8A5C70018B2A0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E650232E26B8A5C70018B2A0 /* PBXTargetDependency */,
+			);
+			name = "Befriend iOS";
+			productName = "Befriend iOS";
+			productReference = E650231B26B8A5C70018B2A0 /* Befriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E650232A26B8A5C70018B2A0 /* Befriend watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E650237626B8A5C70018B2A0 /* Build configuration list for PBXNativeTarget "Befriend watchOS App" */;
+			buildPhases = (
+				E650232926B8A5C70018B2A0 /* Resources */,
+				E650237526B8A5C70018B2A0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E650233B26B8A5C70018B2A0 /* PBXTargetDependency */,
+			);
+			name = "Befriend watchOS App";
+			productName = "Befriend watchOS App";
+			productReference = E650232B26B8A5C70018B2A0 /* Befriend.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E650233726B8A5C70018B2A0 /* Befriend watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E650237226B8A5C70018B2A0 /* Build configuration list for PBXNativeTarget "Befriend watchOS App Extension" */;
+			buildPhases = (
+				E650233426B8A5C70018B2A0 /* Sources */,
+				E650233526B8A5C70018B2A0 /* Frameworks */,
+				E650233626B8A5C70018B2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Befriend watchOS App Extension";
+			productName = "Befriend watchOS App Extension";
+			productReference = E650233826B8A5C70018B2A0 /* Befriend Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		E650234526B8A5C70018B2A0 /* Befriend tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E650237D26B8A5C70018B2A0 /* Build configuration list for PBXNativeTarget "Befriend tvOS" */;
+			buildPhases = (
+				E650234226B8A5C70018B2A0 /* Sources */,
+				E650234326B8A5C70018B2A0 /* Frameworks */,
+				E650234426B8A5C70018B2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Befriend tvOS";
+			productName = "Befriend tvOS";
+			productReference = E650234626B8A5C70018B2A0 /* Befriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E650235626B8A5C70018B2A0 /* Befriend macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E650238026B8A5C70018B2A0 /* Build configuration list for PBXNativeTarget "Befriend macOS" */;
+			buildPhases = (
+				E650235326B8A5C70018B2A0 /* Sources */,
+				E650235426B8A5C70018B2A0 /* Frameworks */,
+				E650235526B8A5C70018B2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Befriend macOS";
+			productName = "Befriend macOS";
+			productReference = E650235726B8A5C70018B2A0 /* Befriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E650230E26B8A5BD0018B2A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = befirend;
+				TargetAttributes = {
+					E650231A26B8A5C70018B2A0 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					E650232A26B8A5C70018B2A0 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					E650233726B8A5C70018B2A0 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					E650234526B8A5C70018B2A0 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					E650235626B8A5C70018B2A0 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = E650231126B8A5BD0018B2A0 /* Build configuration list for PBXProject "Befriend" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E650230D26B8A5BD0018B2A0;
+			productRefGroup = E650231C26B8A5C70018B2A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E650231A26B8A5C70018B2A0 /* Befriend iOS */,
+				E650232A26B8A5C70018B2A0 /* Befriend watchOS App */,
+				E650233726B8A5C70018B2A0 /* Befriend watchOS App Extension */,
+				E650234526B8A5C70018B2A0 /* Befriend tvOS */,
+				E650235626B8A5C70018B2A0 /* Befriend macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E650231926B8A5C70018B2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E650236426B8A5C70018B2A0 /* GameScene.sks in Resources */,
+				E650232426B8A5C70018B2A0 /* Main.storyboard in Resources */,
+				E650236126B8A5C70018B2A0 /* Actions.sks in Resources */,
+				E650232726B8A5C70018B2A0 /* LaunchScreen.storyboard in Resources */,
+				E650236C26B8A5C70018B2A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650232926B8A5C70018B2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E650236D26B8A5C70018B2A0 /* Assets.xcassets in Resources */,
+				E650233226B8A5C70018B2A0 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650233626B8A5C70018B2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E650236526B8A5C70018B2A0 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650234426B8A5C70018B2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E650236626B8A5C70018B2A0 /* GameScene.sks in Resources */,
+				E650234E26B8A5C70018B2A0 /* Main.storyboard in Resources */,
+				E650236226B8A5C70018B2A0 /* Actions.sks in Resources */,
+				E650235126B8A5C70018B2A0 /* LaunchScreen.storyboard in Resources */,
+				E650236E26B8A5C70018B2A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650235526B8A5C70018B2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E650235F26B8A5C70018B2A0 /* Main.storyboard in Resources */,
+				E650236726B8A5C70018B2A0 /* GameScene.sks in Resources */,
+				E650236F26B8A5C70018B2A0 /* Assets.xcassets in Resources */,
+				E650236326B8A5C70018B2A0 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E650231726B8A5C70018B2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E650236826B8A5C70018B2A0 /* GameScene.swift in Sources */,
+				E650232126B8A5C70018B2A0 /* GameViewController.swift in Sources */,
+				E650231F26B8A5C70018B2A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650233426B8A5C70018B2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E650236926B8A5C70018B2A0 /* GameScene.swift in Sources */,
+				E650234026B8A5C70018B2A0 /* ExtensionDelegate.swift in Sources */,
+				E650233E26B8A5C70018B2A0 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650234226B8A5C70018B2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E650236A26B8A5C70018B2A0 /* GameScene.swift in Sources */,
+				E650234B26B8A5C70018B2A0 /* GameViewController.swift in Sources */,
+				E650234926B8A5C70018B2A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650235326B8A5C70018B2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E650236B26B8A5C70018B2A0 /* GameScene.swift in Sources */,
+				E650235C26B8A5C70018B2A0 /* GameViewController.swift in Sources */,
+				E650235A26B8A5C70018B2A0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E650232E26B8A5C70018B2A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E650232A26B8A5C70018B2A0 /* Befriend watchOS App */;
+			targetProxy = E650232D26B8A5C70018B2A0 /* PBXContainerItemProxy */;
+		};
+		E650233B26B8A5C70018B2A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E650233726B8A5C70018B2A0 /* Befriend watchOS App Extension */;
+			targetProxy = E650233A26B8A5C70018B2A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E650232226B8A5C70018B2A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E650232326B8A5C70018B2A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E650232526B8A5C70018B2A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E650232626B8A5C70018B2A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E650233026B8A5C70018B2A0 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E650233126B8A5C70018B2A0 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		E650234C26B8A5C70018B2A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E650234D26B8A5C70018B2A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E650234F26B8A5C70018B2A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E650235026B8A5C70018B2A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E650235D26B8A5C70018B2A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E650235E26B8A5C70018B2A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E650237026B8A5C70018B2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E650237126B8A5C70018B2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E650237326B8A5C70018B2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Befriend watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = introverted.Befriend.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "Befriend Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		E650237426B8A5C70018B2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Befriend watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = introverted.Befriend.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "Befriend Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		E650237726B8A5C70018B2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Befriend_Extension;
+				INFOPLIST_FILE = "Befriend watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = introverted.Befriend.watchkitapp;
+				PRODUCT_NAME = Befriend;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		E650237826B8A5C70018B2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Befriend_Extension;
+				INFOPLIST_FILE = "Befriend watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = introverted.Befriend.watchkitapp;
+				PRODUCT_NAME = Befriend;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		E650237B26B8A5C70018B2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Befriend iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = introverted.Befriend;
+				PRODUCT_NAME = Befriend;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E650237C26B8A5C70018B2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Befriend iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = introverted.Befriend;
+				PRODUCT_NAME = Befriend;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E650237E26B8A5C70018B2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Befriend tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = introverted.Befriend;
+				PRODUCT_NAME = Befriend;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		E650237F26B8A5C70018B2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Befriend tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = introverted.Befriend;
+				PRODUCT_NAME = Befriend;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E650238126B8A5C70018B2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Befriend macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = introverted.Befriend;
+				PRODUCT_NAME = Befriend;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E650238226B8A5C70018B2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Befriend macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = introverted.Befriend;
+				PRODUCT_NAME = Befriend;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E650231126B8A5BD0018B2A0 /* Build configuration list for PBXProject "Befriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E650237026B8A5C70018B2A0 /* Debug */,
+				E650237126B8A5C70018B2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E650237226B8A5C70018B2A0 /* Build configuration list for PBXNativeTarget "Befriend watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E650237326B8A5C70018B2A0 /* Debug */,
+				E650237426B8A5C70018B2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E650237626B8A5C70018B2A0 /* Build configuration list for PBXNativeTarget "Befriend watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E650237726B8A5C70018B2A0 /* Debug */,
+				E650237826B8A5C70018B2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E650237A26B8A5C70018B2A0 /* Build configuration list for PBXNativeTarget "Befriend iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E650237B26B8A5C70018B2A0 /* Debug */,
+				E650237C26B8A5C70018B2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E650237D26B8A5C70018B2A0 /* Build configuration list for PBXNativeTarget "Befriend tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E650237E26B8A5C70018B2A0 /* Debug */,
+				E650237F26B8A5C70018B2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E650238026B8A5C70018B2A0 /* Build configuration list for PBXNativeTarget "Befriend macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E650238126B8A5C70018B2A0 /* Debug */,
+				E650238226B8A5C70018B2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E650230E26B8A5BD0018B2A0 /* Project object */;
+}
